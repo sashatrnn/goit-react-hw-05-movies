@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 42px;
+}
+.movieItem {
+  max-width: 250px;
+  background-color: #4A4E69;
+  border-radius: 10px;
+  scale: 1;
+  transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.movieItem:hover {
+  box-shadow: 4px 4px 10px #242a2a;
+  scale: 1.1;
+}
+.navItem {
+  color: #F2E9E4;
+  border-radius: 5px;
+  padding: 0px 0px 10px 0;
+  display: inline-block;
+}
+.movieName {
+  padding: 4px;
+  margin-top: 8px;
+  color: #F2E9E4;
+  font-size: 17px;
+  text-align: center;
+}
+.movieImage {
+  display: block;
+  border-radius: 10px;
+  width: 250px;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}

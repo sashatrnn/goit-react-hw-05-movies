@@ -1,0 +1,13 @@
+.reviewList {
+  font-size: 20px;
+  font-weight: 300;
+}
+.reviewItem {
+  margin-bottom: 16px;
+}
+.reviewTitle {
+  margin-bottom: 16px;
+}
+.reviewText {
+  font-size: 14px;
+}

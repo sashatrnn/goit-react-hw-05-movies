@@ -1,0 +1,26 @@
+.castList {
+  justify-content: space-between;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.castItem {
+  max-width: 150px;
+}
+
+.castImg {
+  border-radius: 5px;
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+
+.castText {
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}

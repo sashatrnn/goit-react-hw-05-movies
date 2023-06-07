@@ -1,0 +1,43 @@
+.main {
+  padding: 36px 16px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 64px;
+  margin-bottom: 48px;
+}
+.form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 580px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.button {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  background-color: #c1b2be91;
+  background-image: url('https://img.icons8.com/?size=512&id=43719&format=png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  outline: none;
+}
+.input {
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding-left: 14px;
+  padding-right: 14px;
+}
